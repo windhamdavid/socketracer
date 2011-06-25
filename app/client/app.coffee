@@ -294,7 +294,7 @@ drawCanvas = ->
   sr.tiles = canvas.find('#tiles')
   
   canvas.width window.innerWidth
-  canvas.height window.innerHeight - 96
+  canvas.height window.innerHeight - 9
   #canvas.css({'width': 1200, 'height': 800})
   canvas.css({'width': canvas.width(), 'height': canvas.height()})
   

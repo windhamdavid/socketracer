@@ -9,8 +9,6 @@ html(lang="en")
     title SocketRacer
   body
     #wrapper
-      #navigationTop
-        img(class='navigationLogo', src='/images/racerlogo.png')
       #main.views.hidden
         #canvas
           #laptimer
@@ -56,17 +54,7 @@ html(lang="en")
             
           #viewport
             #tiles
-      input(type='text')#chatentry.hidden
-      #navigationBottom
-        p
-          a(href='https://github.com/alz/socketracer', target='_blank') SocketRacer
-          |  proof of concept by
-          a(href='https://about.me/alanmilford', target='_blank') Alan Milford 
-          |  based on the awesome
-          a(href='https://github.com/socketstream/socketstream', target='_blank') SocketStream
-          |  framework.
-          a(href='https://github.com/alz/socketracer', target='_blank') Get the code.
-        
+      input(type='text')#chatentry.hidden  
       form(onsubmit="return false")#signIn.views.hidden
         h1 Please enter a username
         input(type="text", autofocus)
