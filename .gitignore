@@ -1,4 +1,13 @@
-.DS_Store
+Icon?
+.DS_Store?
+Thumbs.db
+
+*.log
+
+config/
+config/ssl
+
+
 node_modules
 dump.rdb
 map_1.xml
