@@ -1079,7 +1079,7 @@ $(window).resize ->
   sr.canvas = $('#canvas')
   canvas = sr.canvas
   canvas.width window.innerWidth
-  canvas.height (window.innerHeight - 97)
+  canvas.height (window.innerHeight - 9)
 
 after = (ms, cb) -> setTimeout cb, ms
 every = (ms, cb) -> setInterval cb, ms
