@@ -6,7 +6,7 @@
   "https": {
     "enabled":            true,
     "port":               443,
-    "domain":             "www.socketracer.com"
+    "domain":             "silverbullet.local"
   },
   "browser_check": {
     "enabled":            true,

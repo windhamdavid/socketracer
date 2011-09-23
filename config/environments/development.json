@@ -1,5 +1,0 @@
-{
-  "db": {
-    "mongo": {"database": "rooms", "host": "localhost", "port": 27017},
-  }
-}

@@ -1,12 +1,16 @@
-SocketRacer
+Socket Class
+forked from SocketRacer - https://github.com/alz/socketracer
 ===
-
-This is a proof of concept game to demonstrate the SocketStream framework. CoffeeScript is used for the main game logic including the collision detection and chat features, whilst CSS3 is used almost exclusively on the presentation layer for rendering the cars. 
-
+CoffeeScript for logic and chat
+CSS3, HTML5 <canvas> for presentation
 
 Requirements
----
+Node.js - https://github.com/joyent/node
+SocketStream - https://github.com/socketstream
+Install SocketStream and its dependencies (please follow the installation instructions [here](https://github.com/socketstream/socketstream/blob/master/INSTALL.md))
+- A modern web browser that supports web sockets (currently chrome, safari)
 
-- SocketStream and its dependencies (please follow the installation instructions [here](https://github.com/socketstream/socketstream/blob/master/INSTALL.md))
-- A web browser
-
+Usage
+npm install .
+socketstream start
+SS_ENV=staging socketstream start (#e.g. config/environments/staging.json)
